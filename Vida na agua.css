@@ -1,0 +1,96 @@
+body{
+    background-image:url(fundo.jpg.jpg);
+   background-attachment:fixed;
+   background-size:100% ;
+   background-repeat:no-repeat ;
+   background-color: black;
+   font-size:15px; 
+border:black 2px }
+
+.vidanaagua{color:darkblue;
+font-size:45px;
+width:top 50%;}
+
+   .coluna1{float:left;
+padding:0 5%;
+position: relative;
+width: 40% ;
+border:2px}
+
+.coluna2{float:left;
+    padding:0 5%;
+    position: left;
+    width: 40% ;}
+    
+
+    .vida{
+    text-align: center ;
+    font:10px;
+    text-align: auto;
+    text-shadow:1px 1px 1px;
+    padding:20px;
+    
+}
+    .imagen{border:black ;
+    text-align:center }
+    
+    .botao{width:center ;
+        font-family:black arial;
+        font-size:14px;
+        text-transform:uppercase;
+        font-weight: 700;
+        color:black;
+        border:none;
+        padding:20px;
+        cursor:pointer;
+        background:none;
+        
+        }
+        .botao3d:hover{background:wheat;
+        }
+        .botao3d:active{position:relative;
+        top:5px;
+        }
+    
+
+   .corpo{width:1000px ;
+    margin: auto;}
+   
+    p{font-size:25px;
+    }
+    footer{background-color: teal;
+    float:left;
+    padding:25px;
+    font-size:15px}
+
+    header{background-color: turquoise;
+    color:white;
+    height: 55px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;}
+    #logo{width: 80px;
+    position: absolute;
+    margin-left:5%}
+    #menu{float: right;
+    margin-right:10%;
+    margin-top:0px;
+    list-style: none;}
+    li{float:left;
+    color:white;
+    padding: 20px 10px 20px 10px;
+    font}    
+
+li:hover{background-color:white;
+    color:red
+}
+
+.cormenu{color:darkblue;
+text-decoration: none;}
+
+@media all and (max-width:768px){
+    li{visibility: hidden;
+    } {display: block;
+    {}.coluna1, .coluna2,;
+    
+}
